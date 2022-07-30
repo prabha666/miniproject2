@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="navigation flex">
+            <div class="logo">
+                <img src="netflix-logo.jpg"alt="">
+            </div>
+            <div class="navbar flex" id="navbar">
+                <div class="left-nav flex">
+                 <ul class="flex menu">
+                    <li>Home</li>
+                    <li>TV Shows</li>
+                    <li>Movies</li>
+                    <li>New & Popular</li>
+                    <li>My List</li>
+
+                 </ul>
+                </div>
+                <div class="right-nav flex">
+                    <span class="fa fa-search fa" aria-hidden="true">
+                        <p>Children</p>
+                    </span>
+                    <span class="fa fa-bell-o fa" aria-hidden="true">
+                     </span>
+                    <img src="th.jpg" alt="">
+                    <span class="fa fa-caret-down fa" aria-hidden="true"></span>
+
+                </div>
+            </div>
+            <span class="togglebtn" onclick="toggle()">&#9776;</span>
+        </div>
+        <div class="inner">
+            <div class="banner flex">
+                <h3>Marvel Studio's</h3>
+                <h1>Avengers : Endgame</h1>
+                <div class="banner-button flex">
+                    <button class="btn"><span class="fa fa-play play" aria-hidden="true"></span>
+                     Play</button>
+                    <button class="btn1"><span class="fa fa-info-circle play info" aria-hidden="true"></span>More Info</button>
+                   
+                </div>
+            </div>
+            <br><br><br>
+            <h3>New Release</h3>
+            
+           <div class="carousel">
+           
+            <div class="carousel-slider">
+               
+                <div class="carousel-list">
+                   
+                    <div class="carousel-item">
+                      <br>
+                   
+                       <marquee> <img src="th1.jpg" alt=""></marquee>
+
+                    </div>
+                    <div class="carousel-item">
+                        <marquee> <img src="th2.jpg" alt=""></marquee>
+                        </div>
+                   
+                    <div class="carousel-item">
+                    <marquee> <img src="th5.jpg" alt=""></marquee>
+                        </div>
+                    <div class="carousel-item">
+                    <marquee><img src="th6.jpg" alt=""></marquee>
+                         </div>
+                    
+                         <div class="carousel-item">
+                        <marquee> <img src="th9.jpg" alt=""></marquee>
+                        </div>
+                    <div class="carousel-item">
+                    <marquee> <img src="th10.jpg" alt=""></marquee>
+                        </div>
+                
+                </div>
+            </div>
+           </div> 
+        </div>
+    </div>
+           <div class="video-container">
+            <div class="color-overlay">
+               <video autoplay loop muted>
+                <source src="video5.mp4">
+               </video>
+                
+            </div>
+
+           </div>
+      <script src="js/script.js"></script>  
+</body>
+</html>
